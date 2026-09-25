@@ -1,8 +1,20 @@
-﻿.env
+﻿# Environment & Sensitive Keys
+.env
+
+# Python / Virtual Environment
 .venv/
 venv/
 env/
 __pycache__/
 *.py[cod]
-.idea/
-.vscode/
+
+# Android Studio & Gradle
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
